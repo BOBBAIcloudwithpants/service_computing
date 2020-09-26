@@ -1,6 +1,6 @@
 package hw2
 
-func merge(input []int, s1 int, e1 int, s2 int, e2 int) {
+func Merge(input []int, s1 int, e1 int, s2 int, e2 int) {
 	var output []int
 
 	len1 := e1 - s1 + 1
@@ -52,5 +52,5 @@ func MergeSort(input []int, start int, end int){
 	mid := (start + end) / 2
 	MergeSort(input, start, mid)
 	MergeSort(input, mid+1, end)
-	merge(input, start, mid, mid+1, end)
+	Merge(input, start, mid, mid+1, end)
  }
