@@ -19,7 +19,7 @@
 - 配置了golang 1.11或以上的环境，并开启go module（没有的话可以在终端执行命令: `export GO111MODULE=on`）
 - 如何获取该项目: 
 ```shell script
-go get -t  github.com/bobbaicloudwithpants/service_computing/hw2
+go get github.com/bobbaicloudwithpants/service_computing/hw2
 ```
 在 `$GOPATH/src/github.com/bobbaicloudwithpants/service_computing/hw2` 目录下进入终端，输入:
 ```shell script
